@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Murphy">
+    <meta name="keywords" content="Trivia page for trivia night">
+    <title>Trivia Night</title>
+    <style>
+        body {
+            background-image: url('lightBackground.png');
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Links to other pages</legend>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Multiple Choice</legend>
+        <br>
+        <p>What is the <em>scientific</em> name of H<sub>2</sub>0?</p>
+        <ul>
+            <li><input type="radio" id="air" name="water"><label for="air">Air</label></li>
+            <li><input type="radio" id="fire" name="water"><label for="fire">Fire</label></li>
+            <li><input type="radio" id="earth" name="water"><label for="earth">Earth</label></li>
+            <li><input type="radio" id="h20" name="water"><label for="h20">Water</label></li>
+        </ul>
+        <p>What is the <em>most popular</em> name for Dec. 25<sup>th</sup></p>
+        <ul>
+            <li><input type="radio" id="25th" name="christmas"><label for="25th">Christmas</label></li>
+            <li><input type="radio" id="24th" name="christmas"><label for="24th">Thanksgiving</label></li>
+            <li><input type="radio" id="14th" name="christmas"><label for="14th">Valentine's Day</label></li>
+            <li><input type="radio" id="31st" name="christmas"><label for="31st">Halloween</label></li>
+        </ul>
+        <p>Which of the following the the chemical code for <strong>sugar?</strong></p>
+        <ul>
+            <li><input type="checkbox" id="1st" name="sugar"><label for="1st">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></label></li>
+            <li><input type="checkbox" id="2nd" name="sugar"><label for="2nd">C<sub>5</sub>H<sub>10</sub>O<sub>5</sub></label></li>
+            <li><input type="checkbox" id="3rd" name="sugar"><label for="3rd">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></label></li>
+            <li><input type="checkbox" id="4th" name="suagr"><label for="4th">C<sub>11</sub>H<sub>22</sub>O<sub>11</sub></label></li>
+        </ul>
+        <p>Which of the following are <strong>even?</strong></p>
+        <ul>
+        <li><input type="checkbox" id="1st" name="even"><label for="1st">1<sup>st</sup></label>
+        </li>
+        <li><input type="checkbox" id="2nd" name="even"><label for="2nd">2<sup>nd</sup></label></li>
+        <li><input type="checkbox" id="3rd" name="even"><label for="3rd">3<sup>rd</sup></label></li>
+        <li><input type="checkbox" id="4th" name="even"><label for="4th">4<sup>th</sup></label>
+        </li>
+        </ul>
+        <input type="submit" id="submit">
+    </fieldset>
+</body>
+
+</html>
